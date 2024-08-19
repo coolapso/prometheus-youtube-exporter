@@ -10,7 +10,7 @@ func TestNewMetrics(t *testing.T) {
 	metrics := newMetrics()
 
 	t.Run("Test Sample metric A", func(t *testing.T) {
-		expected := `Desc{fqName: "youtube_channel_isLive", help: "If Youtube channel live stream is broadcasting", constLabels: {}, variableLabels: {channel_name}}`
+		expected := `Desc{fqName: "youtube_channel_is_live", help: "If Youtube channel live stream is broadcasting", constLabels: {}, variableLabels: {channel_id}}`
 		got := metrics.IsLive.String()
 		if !strings.Contains(got, expected) {
 			t.Fatalf("Metric does not contain expected fqName, expected: %v, got %v", expected, got)
