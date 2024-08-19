@@ -51,7 +51,7 @@ func (e *Exporter) Collect(ch chan<- prometheus.Metric) {
 			e.metrics.IsLive,
 			prometheus.GaugeValue,
 			e.isLive(ytChan),
-			"isLive",
+			ytChan,
 		)
 	}
 }
@@ -85,7 +85,7 @@ func newMetrics() *metrics {
 		IsLive: prometheus.NewDesc(
 			prometheus.BuildFQName(namespace, "", "isLive"),
 			"If Youtube channel live stream is broadcasting",
-			[]string{"channel_name"}, nil,
+			[]string{"channel_id"}, nil,
 		),
 	}
 }
