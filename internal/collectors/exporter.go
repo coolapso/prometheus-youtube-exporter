@@ -83,7 +83,7 @@ func (e *Exporter) isLive(chId string) float64 {
 func newMetrics() *metrics {
 	return &metrics{
 		IsLive: prometheus.NewDesc(
-			prometheus.BuildFQName(namespace, "", "isLive"),
+			prometheus.BuildFQName(namespace, "", "is_live"),
 			"If Youtube channel live stream is broadcasting",
 			[]string{"channel_id"}, nil,
 		),
