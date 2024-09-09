@@ -4,7 +4,7 @@ go 1.23.0
 
 require (
 	github.com/prometheus/client_golang v1.20.2
-	github.com/prometheus/common v0.57.0
+	github.com/prometheus/common v0.59.1
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0
 	google.golang.org/api v0.195.0
@@ -46,7 +46,6 @@ require (
 	go.opentelemetry.io/otel v1.29.0 // indirect
 	go.opentelemetry.io/otel/metric v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
-	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
