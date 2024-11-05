@@ -69,6 +69,14 @@ docker run -d -p 10020:10020 \
         coolapso/youtube-exporter
 ```
 
+## Troubleshooting
+
+### Exporter reports broadcast is offline even when it is actively broacasting
+
+Make sure you have the option: "Unlist live replay once stream ends" Turned off when you start the live stream, Youtube API returns different values than expected when this setting is turnned on. More details on [issue #19](https://github.com/coolapso/prometheus-youtube-exporter/issues/19)
+
+
+
 # Contributions
 
 Improvements and suggestions are always welcome. Feel free to check for any open issues, or open a new issue or pull request.
