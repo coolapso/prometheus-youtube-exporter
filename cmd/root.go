@@ -35,6 +35,7 @@ const (
 	defaultMetricsPath = "/metrics"
 	defaultListenPort  = "10020"
 	defaultAddress     = "localhost"
+	Version			   = "DEV"
 )
 
 var (
@@ -110,7 +111,7 @@ func exporter() {
 		logger.Warn(err.Error())
 	}
 
-	logger.Info(fmt.Sprintf("starting prometheus exporter %v %v", version.Info(), version.BuildContext()))
+	logger.Info(fmt.Sprintf("starting prometheus exporter %v %v", Version, version.BuildContext()))
 	exporter, err := collectors.NewExporter(s, logger)
 	if err != nil {
 		logger.Error("Failed to create new exporter", "err", err)
