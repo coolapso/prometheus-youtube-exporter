@@ -35,7 +35,7 @@ const (
 	defaultMetricsPath = "/metrics"
 	defaultListenPort  = "10020"
 	defaultAddress     = "localhost"
-	Version			   = "DEV"
+	Version            = "DEV"
 )
 
 var (
