@@ -35,11 +35,11 @@ const (
 	defaultMetricsPath = "/metrics"
 	defaultListenPort  = "10020"
 	defaultAddress     = "localhost"
-	Version            = "DEV"
 )
 
 var (
 	settings collectors.Settings
+	Version  = "DEV"
 )
 
 func Execute() {
