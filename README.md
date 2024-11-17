@@ -1,8 +1,10 @@
 # PROMETHEUS YOUTUBE EXPORTER
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/coolapso/prometheus-youtube-exporter)](https://goreportcard.com/report/github.com/coolapso/prometheus-youtube-exporter)
-[![Docker image version](https://img.shields.io/docker/v/coolapso/youtube-exporter/latest?logo=docker)](https://hub.docker.com/r/coolapso/youtube-exporter)
 [![release](https://github.com/coolapso/prometheus-youtube-exporter/actions/workflows/release.yaml/badge.svg)](https://github.com/coolapso/prometheus-youtube-exporter/actions/workflows/release.yaml)
+![GitHub Tag](https://img.shields.io/github/v/tag/coolapso/prometheus-youtube-exporter?logo=semver&label=semver&labelColor=gray&color=green)
+[![Docker image version](https://img.shields.io/docker/v/coolapso/youtube-exporter/latest?logo=docker)](https://hub.docker.com/r/coolapso/youtube-exporter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/coolapso/prometheus-youtube-exporter)](https://goreportcard.com/report/github.com/coolapso/prometheus-youtube-exporter)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/coolapso?style=flat&logo=githubsponsors)
 
 A Prometheus exporter to scrape metrics from the YouTube API.
 
@@ -81,7 +83,7 @@ Make sure you have the option: "Unlist live replay once stream ends" Turned off 
 
 Improvements and suggestions are always welcome. Feel free to check for any open issues, or open a new issue or pull request.
 
-If you like this project and want to support or contribute in a different way, you can:
+If you like this project and want to support / contribute in a different way you can always [:heart: Sponsor Me](https://github.com/sponsors/coolapso) or
 
 <a href="https://www.buymeacoffee.com/coolapso" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" />
