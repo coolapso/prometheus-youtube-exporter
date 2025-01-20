@@ -4,7 +4,7 @@ go 1.23.0
 
 require (
 	github.com/prometheus/client_golang v1.20.5
-	github.com/prometheus/common v0.61.0
+	github.com/prometheus/common v0.62.0
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0
 	google.golang.org/api v0.218.0
