@@ -2,9 +2,11 @@ module github.com/coolapso/prometheus-youtube-exporter
 
 go 1.23.0
 
+toolchain go1.24.1
+
 require (
 	github.com/prometheus/client_golang v1.21.1
-	github.com/prometheus/common v0.62.0
+	github.com/prometheus/common v0.63.0
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/viper v1.19.0
 	google.golang.org/api v0.224.0
